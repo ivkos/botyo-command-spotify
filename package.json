@@ -1,0 +1,46 @@
+{
+  "name": "botyo-command-spotify",
+  "version": "2.0.0-alpha.1",
+  "description": "Spotify command for Botyo",
+  "keywords": [
+    "botyo",
+    "module",
+    "extension",
+    "command",
+    "spotify",
+    "song",
+    "music"
+  ],
+  "main": "build/SpotifyCommand.js",
+  "types": "build/SpotifyCommand.d.ts",
+  "scripts": {
+    "prebuild": "rimraf build/",
+    "build": "tsc -p .",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivkos/botyo-command-spotify.git"
+  },
+  "author": {
+    "name": "Ivaylo Stoyanov",
+    "email": "me@ivkos.com",
+    "url": "https://github.com/ivkos"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ivkos/botyo-command-spotify/issues"
+  },
+  "homepage": "https://github.com/ivkos/botyo-command-spotify#readme",
+  "dependencies": {
+    "botyo-api": "^2.0.0-alpha.14",
+    "spotify-web-api-node": "^2.5.0"
+  },
+  "devDependencies": {
+    "rimraf": "^2.6.2",
+    "typescript": "^2.6.2"
+  },
+  "engines": {
+    "node": ">=6.5.0"
+  }
+}
