@@ -1,6 +1,6 @@
 {
   "name": "botyo-command-spotify",
-  "version": "2.0.0-alpha.2",
+  "version": "2.0.0-alpha.3",
   "description": "Spotify command for Botyo",
   "keywords": [
     "botyo",
@@ -33,7 +33,7 @@
   },
   "homepage": "https://github.com/ivkos/botyo-command-spotify#readme",
   "dependencies": {
-    "botyo-api": "^2.0.0-alpha.14",
+    "botyo-api": "^2.0.0-alpha.31",
     "spotify-web-api-node": "^2.5.0"
   },
   "devDependencies": {

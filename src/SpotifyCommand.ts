@@ -1,8 +1,8 @@
-import { CommandModule, Message } from "botyo-api";
+import { AbstractCommandModule, Message } from "botyo-api";
 
 const Spotify = require('spotify-web-api-node');
 
-export default class SpotifyCommand extends CommandModule
+export default class SpotifyCommand extends AbstractCommandModule
 {
     private readonly market: string;
     private readonly spotify: any;
